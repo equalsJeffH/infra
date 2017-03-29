@@ -6,6 +6,7 @@ Status: LS
 Group: WHATWG
 No Editor: true
 Logo: https://resources.whatwg.org/logo-infra.svg
+Fingerprint Image: https://resources.whatwg.org/fingerprint.svg
 Abstract: The Infra Standard aims to define the fundamental concepts upon which standards are built.
 !Participate: <a href=https://github.com/whatwg/infra>GitHub whatwg/infra</a> (<a href=https://github.com/whatwg/infra/issues/new>new issue</a>, <a href=https://github.com/whatwg/infra/issues>open issues</a>)
 !Participate: <a href=https://wiki.whatwg.org/wiki/IRC>IRC: #whatwg on Freenode</a>
@@ -82,6 +83,17 @@ readable.
 <p>The word "or", in cases where both inclusive "or" and exclusive "or" are possible (e.g., "if
 either width or height is zero"), means an inclusive "or" (implying "or both"), unless it is called
 out as being exclusive (with "but not both").
+
+
+<h3 id=privacy>Privacy concerns</h3>
+
+<p>Certain characteristics of a user's system can be used to distinguish groups of users from each
+other; by collecting enough such information, an individual user's browser's "digital fingerprint"
+can be computed, which can be as good, if not better, as an IP address in ascertaining which
+requests are from the same user.
+
+<p class=fingerprinting-vector>Features that can be
+<dfn id=fingerprinting-vector>used to fingerprint the user</dfn> are marked as this paragraph is.
 
 
 <h2 id=algorithms>Algorithms</h2>
